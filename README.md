@@ -1,2 +1,27 @@
-# personal-web
-A basic web page containing personal information, developed as a project for the Web Programming class.
+# 🌐 Personal Web - Ezra Mighty
+
+[![GitHub License](https://img.shields.io/github/license/ezra08mc/personal-web?style=flat-square&color=B75D69)](LICENSE)
+[![Web Programming Project](https://img.shields.io/badge/Project-Web%20Programming-blue?style=flat-square)](https://github.com/ezra08mc)
+
+A clean and minimalist personal website developed as a final project for my **Web Programming class**. This project focuses on pure HTML structure and creative layouts without relying heavily on modern CSS frameworks, showcasing a "retro-modern" aesthetic.
+
+---
+
+## 🚀 Features
+
+* **📰 Blog Section**: Shares experiences with Go, Linux, and Gemini AI.
+* **🖼️ Interactive Gallery**: A unique gallery system using HTML anchors and frames.
+* **🤝 Contact Form**: Integrated with Formspree for direct messaging.
+* **📱 Mobile Friendly**: Designed to be accessible across different devices using table layouts.
+
+
+## 📁 Project Structure
+
+```text
+personal-web/
+├── assets/             # Images, icons, and gallery photos
+├── index.html          # Homepage
+├── blog.html           # Journal/Blog posts
+├── gallery.html        # Interactive photo gallery
+├── contact.html        # Get in touch
+└── README.md           # Project documentation
