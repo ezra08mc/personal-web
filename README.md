@@ -11,7 +11,6 @@ A clean and minimalist personal website developed as a final project for my **We
 
 * **📰 Blog Section**: Shares experiences with Go, Linux, and Gemini AI.
 * **🖼️ Interactive Gallery**: A unique gallery system using HTML anchors and frames.
-* **🤝 Contact Form**: Integrated with Formspree for direct messaging.
 * **📱 Mobile Friendly**: Designed to be accessible across different devices using table layouts.
 
 
