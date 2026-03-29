@@ -5,10 +5,15 @@
 
 A clean and minimalist personal website developed as a final project for my **Web Programming class**. This project focuses on pure HTML structure and creative layouts without relying heavily on modern CSS frameworks, showcasing a "retro-modern" aesthetic.
 
+## 📸 Preview
+
+[![Preview Website](https://img.shields.io/badge/Click_here_to_preview_>>-B75D69?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ezra08mc.github.io/personal-web)
+
+> *Note: If the link above doesn't work, you can manually open `index.html` in your browser.*
 ---
 
 ## 🚀 Features
-
+* **🏠 Home**: My personal profile and technical introduction.
 * **📰 Blog Section**: Shares experiences with Go, Linux, and Gemini AI.
 * **🖼️ Interactive Gallery**: A unique gallery system using HTML anchors and frames.
 * **📱 Mobile Friendly**: Designed to be accessible across different devices using table layouts.
