@@ -7,7 +7,7 @@ A minimalist, high-performance personal website built with a **Monorepo architec
 
 ## 📸 Preview
 
-[![Preview Website](https://img.shields.io/badge/Live_Demo-B75D69?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ezra08mc.github.io/personal-web-2)
+[![Preview Website](https://img.shields.io/badge/Live_Demo-B75D69?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ezra08mc.github.io/personal-web)
 
 ---
 
@@ -34,3 +34,6 @@ personal-web/
 │   └── js/             # Interactive logic and theme handling (script.js)
 ├── index.html          # Root redirect for GitHub Pages deployment
 └── README.md           # Project documentation
+```
+
+Designed with ❤️ by Ezra Mighty
