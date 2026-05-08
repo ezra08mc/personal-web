@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezra Mighty — Blog</title>
+  <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-left">
+      <a class="nav-icon" href="./index.html" title="Home">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+      </a>
+      <a class="nav-icon" href="./about.html" title="About">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+      </a>
+      <a class="nav-icon active" href="./blog.html" title="Blog">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+      </a>
+      <a class="nav-icon" href="./gallery.html" title="Gallery">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+      </a>
+      <a class="nav-icon" href="./resume.html" title="Works">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="5" rx="1"/><rect x="2" y="10" width="9" height="11" rx="1"/><rect x="13" y="10" width="9" height="11" rx="1"/></svg>
+      </a>
+      <a class="nav-icon" href="./contact.html" title="Contact">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 2h12a2 2 0 012 2v12a2 2 0 01-2 2H8l-4 4V4a2 2 0 012-2z"/></svg>
+      </a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-btn" id="themeToggle" title="Toggle theme">
+        <svg id="themeIcon" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+      <a href="https://github.com/ezra08mc/" target="_blank" class="nav-icon" title="GitHub">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <main class="card active" id="view-blog-list">
+    <header class="works-hero reveal">
+      <div class="section-label">
+        <div class="dot"></div>
+        Blog
+      </div>
+      <h1>📝 Articles</h1>
+      <p>Sharing my thoughts about tech and coding.</p>
+    </header>
+    
+    <div style="padding: 0 24px 24px; display: flex; flex-direction: column; gap: 16px;">
+      <a href="#" onclick="openArticle('go-vs-js'); return false;" class="blog-card reveal">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <h2 class="blog-card-title">💫 Golang vs JavaScript</h2>
+        </div>
+        <div class="blog-card-date">Mar 29, 2026</div>
+        <div class="blog-card-snippet">
+          When I first started coding, I was honestly overwhelmed. Choosing a language felt like looking at a massive menu where everything looked tasty, but I had no idea what anything actually was. I eventually dove into JavaScript...
+        </div>
+      </a>
+
+      <a href="#" onclick="openArticle('gemini-pro'); return false;" class="blog-card reveal">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <h2 class="blog-card-title">✨ My 365-Day Journey with Gemini Pro</h2>
+        </div>
+        <div class="blog-card-date">Mar 29, 2026</div>
+        <div class="blog-card-snippet">
+          A year ago, I started using Gemini Pro to help me with my college assignments. At first, I was worried I’d get lazy or just become a "copy-paste" machine. But after a year, I’ve realized that Gemini isn't a replacement for my brain...
+        </div>
+      </a>
+
+      <a href="#" onclick="openArticle('linux'); return false;" class="blog-card reveal">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <h2 class="blog-card-title">🐧 Why Every Student Should Try Linux</h2>
+        </div>
+        <div class="blog-card-date">Mar 29, 2026</div>
+        <div class="blog-card-snippet">
+          I clearly remember the moment I finally built up the courage to delete Windows and move completely to Fedora. It felt like moving into a new house with no furniture; I was confused and afraid of making mistakes, but at the same time...
+        </div>
+      </a>
+    </div>
+    
+    <footer class="card-footer reveal">
+      <p>© 2026 Ezra Mighty Lumentut <br> Designed with ❤️</p>
+    </footer>
+  </main>
+
+  <main class="card" id="view-blog-detail" style="display: none;">
+    <div style="padding: 24px;" class="reveal">
+      <button onclick="closeArticle()" style="background: none; border: none; color: var(--text-muted); cursor: pointer; display: flex; align-items: center; gap: 6px; font-size: 13px; padding: 0; margin-bottom: 24px; transition: color 0.2s;">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg> Back to Articles
+      </button>
+      <div id="article-content-container">
+        </div>
+    </div>
+    <footer class="card-footer reveal">
+      <p>© 2026 Ezra Mighty Lumentut <br> Designed with ❤️</p>
+    </footer>
+  </main>
+
+  <script src="../src/js/script.js"></script>
+  <script>
+    const articlesData = {
+      'go-vs-js': {
+        title: "💫 Golang vs JavaScript",
+        date: "Mar 29, 2026",
+        image: "./assets/blog1.png",
+        content: `
+          <p>When I first started coding, I was honestly overwhelmed. Choosing a language felt like looking at a massive menu where everything looked tasty, but I had no idea what anything actually was. I eventually dove into JavaScript because everyone said it was the most popular and the easiest way to see something actually happen in the browser.</p>
+          <p>In the beginning, JavaScript felt like a superpower. With just a few lines of code, I could make a website come to life. But as time went on, my code started looking like a mess. JavaScript is very "free," which is cool, but for a beginner like me, it meant I was constantly confused about why things were breaking when they worked just a second ago.</p>
+          <p>Then I met Golang halfway through the semester. At first, it felt incredibly stiff. Everything had to be perfectly defined, and it wouldn't let me get away with anything. Funnily enough, that "stiffness" was exactly what made me feel safe. Go is like a strict but fair teacher; it yells at you while you're typing, not after you run the code, so I stopped staying up all night just to find a simple typo.</p>
+          <p>My experience with Go taught me how data is actually handled behind the scenes. In JavaScript, I only thought about "how it looks," but in Go, I started thinking about "how it performs." Go is simple but powerful, perfect for someone like me who started getting interested in systems that handle a lot of processes without making my laptop fan sound like a jet engine.</p>
+          <p>In conclusion, if you want to quickly build something to show off to your friends, JavaScript is the winner. But if you want to be the "architect" behind the scenes with clean, solid code, give Go a shot. Honestly, I find myself using both together now because they make a pretty awesome team.</p>
+        `
+      },
+      'gemini-pro': {
+        title: "✨ My 365-Day Journey with Gemini Pro",
+        date: "Mar 29, 2026",
+        image: "./assets/blog2.png",
+        content: `
+          <p>A year ago, I started using Gemini Pro to help me with my college assignments. At first, I was worried I’d get lazy or just become a "copy-paste" machine. But after a year, I’ve realized that Gemini isn't a replacement for my brain; it’s more like a very patient mentor who is always awake at 2 AM to answer my silly questions.</p>
+          <p>The most helpful thing for me was when I got stuck on complex logic. Instead of asking for the final code, I started asking Gemini to explain the concepts using everyday analogies. It felt like having a private tutor who never got bored explaining the same thing over and over until I actually understood it.</p>
+          <p>Sometimes I use Gemini for brainstorming. When I have a project idea, I discuss the structure with it. It often offers perspectives I never considered, like security issues or writing more efficient code. This helped me see the "big picture" of an application rather than just focusing on small blocks of code.</p>
+          <p>Of course, there were times when Gemini gave some slightly weird answers. But that was actually the fun part; I was forced to double-check and research. Those moments when I found a mistake in its answer were actually when I learned the most, because I had to understand the topic deeply enough to know why it was wrong.</p>
+          <p>Basically, this year with Gemini has made me a more productive programmer. The key is using AI to learn how to "fish," not just asking for the "fish" itself. Coding doesn't feel as heavy as it used to because I know there's a place to ask for help whenever I hit a wall.</p>
+        `
+      },
+      'linux': {
+        title: "🐧 Why Every Student Should Try Linux",
+        date: "Mar 29, 2026",
+        image: "./assets/blog3.png",
+        content: `
+          <p>I clearly remember the moment I finally built up the courage to delete Windows and move completely to Fedora. It felt like moving into a new house with no furniture; I was confused and afraid of making mistakes, but at the same time, I felt incredibly free. No more automatic update drama during a presentation or random slow-downs for no reason.</p>
+          <p>On Linux, I learned that the "Terminal" isn't a scary thing like in hacker movies. It’s actually the most efficient tool I’ve ever owned. I used to be too lazy to type commands, but now I feel much faster getting things done through the keyboard than clicking around with a mouse.</p>
+          <p>Switching to Linux really opened my eyes to how an operating system actually works. I learned how to manage file permissions, how my laptop memory is used, and how to install software without searching through sketchy websites. This knowledge turned out to be super useful once I started learning about servers and the cloud in class.</p>
+          <p>One thing I love most is the community. When I find an error, the answer is usually already on a forum and people genuinely want to help. Linux taught me to be more independent as an informatics engineering student. I’m not just a "user" anymore; I feel like I actually "own" and control the device I’m using.</p>
+          <p>For the other students, just try installing Linux at least once. You don't have to delete Windows right away; just try it in a Virtual Machine. The experience of tinkering with the system will give you a technical instinct that you won't get from a pre-made OS. Believe me, the sense of pride is different when you successfully fix your own system.</p>
+        `
+      }
+    };
+
+    function openArticle(id) {
+      const article = articlesData[id];
+      const container = document.getElementById('article-content-container');
+      
+      container.innerHTML = `
+        <div class="blog-detail-meta reveal">
+          <div class="blog-detail-meta-row">
+            <span class="blog-detail-meta-label">Author</span>
+            <span class="blog-detail-meta-value">Ezra Mighty</span>
+          </div>
+          <div class="blog-detail-meta-row">
+            <span class="blog-detail-meta-label">Published</span>
+            <span class="blog-detail-meta-value" style="color: var(--accent);">${article.date}</span>
+          </div>
+        </div>
+        <h1 class="reveal" style="font-size: 26px; font-weight: 700; margin-bottom: 20px; line-height: 1.3;">${article.title}</h1>
+        
+        <div class="reveal" style="width: 100%; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--card-border);">
+          <img src="${article.image}" alt="${article.title}" loading="lazy" style="width: 100%; height: auto; display: block; object-fit: cover;">
+        </div>
+        <div class="reveal" style="font-size: 14px; color: var(--text-muted); line-height: 1.6; display: flex; flex-direction: column; gap: 14px; margin-bottom: 30px;">
+          ${article.content}
+        </div>
+      `;
+      
+      document.getElementById('view-blog-list').style.display = 'none';
+      document.getElementById('view-blog-detail').style.display = 'flex';
+      window.scrollTo({ top: 0, behavior: 'auto' });
+      
+      if(window.refreshObserver) window.refreshObserver();
+    }
+
+    function closeArticle() {
+      document.getElementById('view-blog-detail').style.display = 'none';
+      document.getElementById('view-blog-list').style.display = 'flex';
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
+  </script>
+</body>
+</html>
