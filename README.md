@@ -1,7 +1,7 @@
 # 🌐 Personal Web - Ezra Mighty
 
-[![GitHub License](https://img.shields.io/github/license/ezra08mc/personal-web-2?style=flat-square&color=B75D69)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Development-orange?style=flat-square)](https://github.com/ezra08mc)
+[![GitHub License](https://img.shields.io/github/license/ezra08mc/personal-web?style=flat-square&color=B75D69)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Release-green?style=flat-square)](https://github.com/ezra08mc)
 
 A minimalist, high-performance personal website built with a **Monorepo architecture**. This project focuses on clean Vanilla UI/UX, showcasing technical proficiency in Backend & DevOps through a refined frontend presentation. Developed as part of my journey in Informatics Engineering.
 
