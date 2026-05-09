@@ -162,7 +162,7 @@ window.addEventListener("load", () => {
     setTimeout(() => {
       loader.classList.add("loader-hidden");
       sessionStorage.setItem("viewedLoader", "true");
-    }, 1000);
+    }, 500);
   } else {
     loader.style.display = "none";
   }

@@ -7,7 +7,7 @@
   --item-hover: #372549;
   --text: #EACDC2;
   --text-muted: #B07A70;
-  --text-dim: #6B4A55;
+  --text-dim: #8B6A75;
   --accent: #B75D69;
   --accent-bg: rgba(183, 93, 105, 0.15);
   --success: #4ade80;
@@ -338,6 +338,7 @@ svg { display: block; }
   align-items: center;
   z-index: 9999;
   transition: opacity 0.5s ease, visibility 0.5s ease;
+  contain: paint;
 }
 
 .loader {
